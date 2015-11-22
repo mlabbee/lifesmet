@@ -1,0 +1,9 @@
+.rake_test_cache
+
+###
+# Ignore Chef key files and secrets
+###
+.chef/*.pem
+.chef/encrypted_data_bag_secret
+/root/chef-repo/chef-repo/.secure/*
+/root/chef-repo/chef-repo/knife.rb
